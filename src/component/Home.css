@@ -1,0 +1,147 @@
+.parent_home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.child_home {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_data {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #eee;
+    padding: 10px;
+}
+
+.data_first {
+    padding: 5px 10px;
+
+}
+
+.home_imge {
+    padding-bottom: 15px;
+}
+
+.data_third {
+    width: 300px;
+    margin: 8px 0px;
+    background-color: #fff;
+    border: 2px solid #eee;
+}
+
+.logo img {
+    width: 220px;
+    margin-bottom: 25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+}
+input:focus {
+    outline: none;
+  }
+
+input {
+    width: 220px;
+    padding: 8px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 240px;
+    padding: 7px;
+    background-color: rgb(56, 151, 240);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.data_four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.ggpp {
+    width: 120px;
+    height: 40px;
+}
+
+.aapp {
+    width: 120px;
+    height: 40px;
+}
+
+.or{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.or-1{
+    position: relative;
+    bottom: 13px;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+}
+span{
+    color: blue;
+}
+h4{
+    font-weight: bold;
+    color: #385185;
+}
+.padd{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width : 700px) {
+    .parent_home{
+        width: 100%;
+    }
+    .child_home{
+        width: 100%;
+    }
+    .home_data{
+        width: 100%;
+        display: flex;
+        padding-top: 40px;
+    }
+    .ggpp {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .aapp {
+        width: 150px;
+        height: 50px;
+    }
+    .home_imge {
+        display: none;
+    }
+}
